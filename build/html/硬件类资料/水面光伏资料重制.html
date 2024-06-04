@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>水面光伏资料重制 &mdash; 技术写作笔记 0.1 文档</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=7c91f8fd"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/translations.js?v=beaddf03"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="软件类资料" href="../%E8%BD%AF%E4%BB%B6%E7%B1%BB%E8%B5%84%E6%96%99/index.html" />
+    <link rel="prev" title="硬件类资料" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            技术写作笔记
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../%E5%85%B3%E4%BA%8E%E6%9C%AC%E6%8A%80%E6%9C%AF%E5%86%99%E4%BD%9C%E7%AC%94%E8%AE%B0.html">关于本技术写作笔记</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">硬件类资料</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">水面光伏资料重制</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">项目背景</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">项目目标</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">架构设计</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id5">内容设计</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">图片设计</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">其他项目用户手册撰写</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../%E8%BD%AF%E4%BB%B6%E7%B1%BB%E8%B5%84%E6%96%99/index.html">软件类资料</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E8%A7%84%E8%8C%83%E6%80%A7%E6%96%87%E4%BB%B6.html">规范性文件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.html">工具使用技巧</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.html">参考资料</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">技术写作笔记</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">硬件类资料</a></li>
+      <li class="breadcrumb-item active">水面光伏资料重制</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/硬件类资料/水面光伏资料重制.md.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>水面光伏资料重制<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>本章主要记录如何从规范性、完整性和可用性方面改善水面光伏资料，包括安装手册和维护手册。</p>
+<section id="id2">
+<h2>项目背景<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>目前水面光伏事业部资料主要由结构工程师和售后支持编写。文档格式为word，图片为产品三维模型截图加标柱。</p>
+</section>
+<section id="id3">
+<h2>项目目标<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>提高不同内容模块的可重用性。（<strong>架构设计</strong>）</p></li>
+<li><p>优化统一配图风格和语言风格。（<strong>图片优化</strong>）</p></li>
+<li><p>确定操作步骤重点和细节。（<strong>内容优化</strong>）</p></li>
+<li><p>重构安装和维护内容。（<strong>内容和架构优化</strong>）</p></li>
+</ul>
+</section>
+<section id="id4">
+<h2>架构设计<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<p>根据现有手册重新设计大纲，再根据项目实际情况做调整：</p>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>原大纲</th>
+<th>优化后的</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG790.jpg" alt="WechatIMG790" style="zoom:45%"/></td>
+<td><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG791.jpg" alt="WechatIMG791" style="zoom:45%;" /></td>
+</tr>
+</tbody>
+</table><section id="id5">
+<h3>内容设计<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>将原有内容设计成颗粒度不同的内容模块。</p></li>
+<li><p>增加手册必要的内容。</p></li>
+<li><p>确保内容准确性、完整性和可读性。</p></li>
+</ul>
+<p>具体操作：</p>
+<ul class="simple">
+<li><p>调整手册适用范围和供货清单。</p></li>
+<li><p>补充产品简介和安全说明。</p></li>
+<li><p>用图片展示关键信息。</p></li>
+<li><p>将大段文字拆分并配图，善用”图片”语言。</p></li>
+</ul>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>原手册</th>
+<th>优化后的</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG792.jpg" alt="WechatIMG792" style="zoom:45%;" /></td>
+<td><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG793.jpg" alt="WechatIMG793" style="zoom:45%;" /></td>
+</tr>
+</tbody>
+</table><table border="1" class="docutils">
+<thead>
+<tr>
+<th>原手册</th>
+<th>优化后的</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG796.jpg" alt="WechatIMG796" style="zoom:45%;" /></td>
+<td><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG797.jpg" alt="WechatIMG797" style="zoom:45%;" /></td>
+</tr>
+</tbody>
+</table><p>增加的内容：</p>
+<img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG794.jpg" alt="WechatIMG794" style="zoom:45%;" /><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG795.jpg" alt="WechatIMG795" style="zoom:45%;" /><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG798.jpg" alt="WechatIMG798" style="zoom:45%;" /></section>
+<section id="id6">
+<h3>图片设计<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>重新设计图片语言：图片配色、图片标柱规范化等、善用箭头符号等</p></li>
+<li><p>重新设计封面等</p></li>
+</ul>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>原手册</th>
+<th>优化后的</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG799.jpg" alt="WechatIMG799" style="zoom:45%;" /></td>
+<td><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG802.jpg" alt="WechatIMG802" style="zoom:45%;" /></td>
+</tr>
+</tbody>
+</table></section>
+</section>
+<section id="id7">
+<h2>其他项目用户手册撰写<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG803.jpg" alt="WechatIMG803" style="zoom:45%;" /><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG804.jpg" alt="WechatIMG804" style="zoom:45%;" /><img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG805.jpg" alt="WechatIMG805" style="zoom:45%;" /></section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="index.html" class="btn btn-neutral float-left" title="硬件类资料" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="../%E8%BD%AF%E4%BB%B6%E7%B1%BB%E8%B5%84%E6%96%99/index.html" class="btn btn-neutral float-right" title="软件类资料" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 2024, Yan。</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+# 水面光伏资料重制
+
+本章主要记录如何从规范性、完整性和可用性方面改善水面光伏资料，包括安装手册和维护手册。
+
+### 项目背景
+
+目前水面光伏事业部资料主要由结构工程师和售后支持编写。文档格式为word，图片为产品三维模型截图加标柱。
+
+### 项目目标
+
+- 提高不同内容模块的可重用性。（**架构设计**）
+- 优化统一配图风格和语言风格。（**图片优化**）
+- 确定操作步骤重点和细节。（**内容优化**）
+- 重构安装和维护内容。（**内容和架构优化**）
+
+### 架构设计
+
+根据现有手册重新设计大纲，再根据项目实际情况做调整：
+
+| 原大纲                                                       | 优化后的                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG790.jpg" alt="WechatIMG790" style="zoom:45%"/> | <img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG791.jpg" alt="WechatIMG791" style="zoom:45%;" /> |
+
+#### 内容设计
+
+- 将原有内容设计成颗粒度不同的内容模块。
+- 增加手册必要的内容。
+- 确保内容准确性、完整性和可读性。
+
+具体操作：
+
+- 调整手册适用范围和供货清单。
+- 补充产品简介和安全说明。
+- 用图片展示关键信息。
+- 将大段文字拆分并配图，善用”图片”语言。
+
+| 原手册                                                       | 优化后的                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG792.jpg" alt="WechatIMG792" style="zoom:45%;" /> | <img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG793.jpg" alt="WechatIMG793" style="zoom:45%;" /> |
+
+
+
+| 原手册                                                       | 优化后的                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG796.jpg" alt="WechatIMG796" style="zoom:45%;" /> | <img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG797.jpg" alt="WechatIMG797" style="zoom:45%;" /> |
+
+增加的内容：
+
+<img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG794.jpg" alt="WechatIMG794" style="zoom:45%;" />
+
+<img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG795.jpg" alt="WechatIMG795" style="zoom:45%;" />
+
+<img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG798.jpg" alt="WechatIMG798" style="zoom:45%;" />
+
+#### 图片设计
+
+- 重新设计图片语言：图片配色、图片标柱规范化等、善用箭头符号等
+- 重新设计封面等
+
+| 原手册                                                       | 优化后的                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG799.jpg" alt="WechatIMG799" style="zoom:45%;" /> | <img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG802.jpg" alt="WechatIMG802" style="zoom:45%;" /> |
+
+### 其他项目用户手册撰写
+
+<img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG803.jpg" alt="WechatIMG803" style="zoom:45%;" />
+
+<img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG804.jpg" alt="WechatIMG804" style="zoom:45%;" />
+
+<img src="https://images-1326628775.cos.ap-nanjing.myqcloud.com/images/WechatIMG805.jpg" alt="WechatIMG805" style="zoom:45%;" />
