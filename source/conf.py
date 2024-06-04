@@ -15,6 +15,8 @@ release = '0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 import sphinx_rtd_theme
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 extensions = ['recommonmark', 'sphinx_markdown_tables']
 
